@@ -16,8 +16,12 @@ public class Message implements Serializable {
     public static final String TYPE_NEW_USER = "NEWUSER";
     public static final String TYPE_UPLOAD = "UPLOAD";
     public static final String TYPE_DOWNLOAD = "DOWNLOAD";
+    public static final String TYPE_SENDFAIL = "SENDFAIL";
+    public static final String TYPE_SIGNOUT = "SIGNOUT";
 
     public static final String TO_ALL = "ALL";
+
+    public static final String SERVER = "GERVER";
 
     public Message(String t, String s, String c, String r) {
         this.type = t;
