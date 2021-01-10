@@ -17,6 +17,8 @@ public class Message implements Serializable {
     public static final String MESSAGE_TYPE_UPLOAD = "UPLOAD";
     public static final String MESSAGE_TYPE_DOWNLOAD = "DOWNLOAD";
 
+    public static final String MESSAGE_TO_ALL = "ALL";
+
     public Message(String t, String s, String c, String r) {
         this.type = t;
         this.sender = s;
